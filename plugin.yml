@@ -1,0 +1,6 @@
+name: SpigotRCON
+version: 1.0
+main: albertomoreiraluiz.spigotrcon.SpigotRCON
+api-version: 1.14
+author: Alberto Moreira Luiz
+description: Execute Remote commands to your Spigot Console

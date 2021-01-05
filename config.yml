@@ -1,0 +1,21 @@
+settings:
+  prefix: "&f[&6SpigotRCON&f] "
+  port: 3333
+  password: "default"
+  blockedCmds:
+  - "op"
+  - "deop"
+  allowedIps: #To allow all addresses use allowedIps: []
+  - "127.0.0.1"
+  - "databaserc.ddns.net"
+messages:
+  severe: "Internal Error!"
+  command:
+    success: "&2The Remote Host &6%remote_address%&2 is Executing the &2%command%&2 command!"
+    error: "&cCommand Failed!"
+    blocked: "&c%remote_address% tried to execute &2%command%&c but this command is not allowed!"
+  connect:
+    success: "&2Address &6%remote_address%&2 using password &6%password%&2 connected to SpigotRCON!"
+    denied: "&cAddress &6%remote_address%&c tried to connect but this address is not allowed!"
+    invalid: "&cAddress &6%remote_address%&c tried to connect with a this %password% invalid password!"
+    error: "&cError while accept new connection!"
